@@ -12,7 +12,6 @@ pipeline {
             steps{
                 sh './mvnw clean package'
             }
-        }
 
             post {
                 always {
